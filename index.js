@@ -90,4 +90,4 @@ dotContainer.addEventListener("click", (e) => {
   }
 });
 
-let slideTimer = setInterval(autoMoveSlides, 5000 * 1000);
+let slideTimer = setInterval(autoMoveSlides, 5000);
