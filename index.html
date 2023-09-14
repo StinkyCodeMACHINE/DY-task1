@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>DY</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="sr-only">Товары и точка</h1>
+      <div class="slider">
+        <div class="slide-container">
+          <div class="slide slide1 current-slide">
+            <div class="slide-logo-container">
+              <div>учимся</div>
+              <img src="./assets/neutral_logo.svg" />
+              <div>Онлайн</div>
+            </div>
+            <div class="slide-info-container">
+              <div>
+                <h2>Новички</h2>
+                <h3>Сделайте шаг <span>к новой профессии</span></h3>
+
+                <div class="slide-info-bottom-options-container">
+                  <p>
+                    Курсы, которые помогут освоить востребованную профессию с
+                    нуля или изучить новую специализацию
+                  </p>
+                  <div class="more-info-button">Подробнее</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide2">
+            <div class="slide-logo-container">
+              <div>учимся</div>
+              <img src="./assets/neutral_logo.svg" />
+              <div>Онлайн</div>
+            </div>
+            <div class="slide-info-container">
+              <div>
+                <h2>Специалисты</h2>
+                <h3>Сделайте шаг <span>к росту карьеры</span></h3>
+
+                <div class="slide-info-bottom-options-container">
+                  <p>
+                    Курсы для специалистов с опытом, чтобы развиваться в
+                    профессии и открывать новые возможности в карьере
+                  </p>
+                  <div class="more-info-button">Подробнее</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide3">
+            <div class="slide-logo-container">
+              <div>учимся</div>
+              <img src="./assets/neutral_logo.svg" />
+              <div>Онлайн</div>
+            </div>
+            <div class="slide-info-container">
+              <div>
+                <h2>Руководители</h2>
+                <h3>Сделайте шаг <span>к новым решениям</span></h3>
+
+                <div class="slide-info-bottom-options-container">
+                  <p>
+                    Курсы для руководителей, чтобы развивать управленческие
+                    навыки и растить бизнес
+                  </p>
+                  <div class="more-info-button">Подробнее</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-button-container slider-button-prev-container">
+          <img
+            class="slider-button slider-button-prev"
+            src="./assets/next_icon.svg"
+          />
+          <img
+            class="slider-button-active slider-button-active-prev"
+            src="./assets/next_icon_active.svg"
+          />
+        </div>
+
+        <div class="slider-button-container slider-button-next-container">
+          <img
+            class="slider-button slider-button-next"
+            src="./assets/next_icon.svg"
+          />
+          <img
+            class="slider-button-active slider-button-active-next"
+            src="./assets/next_icon_active.svg"
+          />
+        </div>
+        <div class="slider-dots-container first-slide-active">
+          <img class="slider-dot slide-dot-selected" />
+          <img class="slider-dot" />
+          <img class="slider-dot" />
+        </div>
+      </div>
+      <div class="additional-info-container">
+        <div>
+          <img src="./assets/graduation_icon.svg" />
+          <h2>Получите <span class="green">профессию</span></h2>
+          <p>
+            Базовые курсы для изучения новой сферы или профессии — с практикой и
+            помощью в трудоустройстве
+          </p>
+        </div>
+        <div>
+          <img src="./assets/growth_icon.svg" />
+          <h2>Растите <span class="blue">в профессии</span></h2>
+          <p>
+            Курсы продвинутого уровня для тех, кто хочет усилить позиции в
+            текущей профессии, вырасти в доходе, изучить новые инструменты
+          </p>
+        </div>
+        <div>
+          <img src="./assets/development_icon.svg" />
+          <h2>Управляйте <span class="pink">эффективно</span></h2>
+          <p>
+            Курсы для руководителей, чтобы научиться эффективно решать сложные
+            задачи в управлении командой и бизнесом
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-top-container">
+        <div class="footer-top-main-info-container">
+          <h2>Сделайте шаг <span>к новой профессии</span></h2>
+          <p>
+            Расскажите нам о своих целях и мы поможем выбрать подходящую
+            программу.
+          </p>
+        </div>
+        <div class="footer-top-form-container">
+          <form>
+            <input placeholder="Вас зовут" type="text" />
+            <input placeholder="+7 (000) 000-00-00" type="text"
+            oninput="this.value = this.value.replace(/[^0-9.]/g,
+            '').replace(/(\..*)\./g, '$1');" />
+            <button>Оставить заявку</button>
+          </form>
+          <p>
+            Отправляя заявку, я соглашаюсь на обработку
+            <span>персональных данных</span>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom-container">
+        <div class="slide-logo-container">
+          <div>учимся</div>
+          <img src="./assets/neutral_logo.svg" />
+          <div>Онлайн</div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
