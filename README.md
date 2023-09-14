@@ -16,7 +16,7 @@
 
 ### Ссылки
 
-- Live Site URL: [https://effortless-dolphin-e42076.netlify.app](https://effortless-dolphin-e42076.netlify.app)
+- Live Site URL: [https://tangerine-rolypoly-edc006.netlify.app/](https://tangerine-rolypoly-edc006.netlify.app/)
 
 ## Что и как?
 
