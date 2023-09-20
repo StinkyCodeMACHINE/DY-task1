@@ -1,6 +1,6 @@
-Задание по вёрстке (DY)
+# Задание по вёрстке (DY)
 
-## Table of contents
+## Содержимое
 
 - [Обзор](#обзор)
   - [Скриншот](#скриншот)
@@ -16,7 +16,7 @@
 
 ### Ссылки
 
-- Live Site URL: [https://tangerine-rolypoly-edc006.netlify.app/](https://tangerine-rolypoly-edc006.netlify.app/)
+- Хостинг: [https://tangerine-rolypoly-edc006.netlify.app/](https://tangerine-rolypoly-edc006.netlify.app/)
 
 ## Что и как?
 
